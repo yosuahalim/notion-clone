@@ -12,6 +12,7 @@ import Link from "next/link";
 
 export const Navbar = () => {
   const { isAuthenticated, isLoading } = useConvexAuth();
+
   const scrolled = useScrollTop();
   return (
     <div
